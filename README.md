@@ -17,3 +17,37 @@ Uses GTFS-static data [provided](https://kochimetro.org/open-data/) by [Kochi Me
 3. `app`
 
    Holds the React frontend for the application.
+
+## Instructions
+
+1. Running transformer module
+
+```
+cd transformer
+npm install
+npm start
+```
+
+2. Running frontend application
+
+   a. Development
+
+   ```
+   npm install
+   npm start
+   ```
+
+   b. Deployment
+
+   ```
+   npm install
+   npm run build
+   ```
+
+   c. Test
+
+   ```
+   npm test
+   ```
+
+Feel free to replace with `yarn` counterparts.
