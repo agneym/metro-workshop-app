@@ -1,0 +1,15 @@
+{
+  "name": "metro-transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Boy with Silver Wings <agney@outlook.in>",
+  "license": "ISC",
+  "dependencies": {
+    "papaparse": "^5.0.0"
+  }
+}
