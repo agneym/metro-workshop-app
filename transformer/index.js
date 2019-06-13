@@ -1,7 +1,7 @@
-const manageFare = require("./fare/manage-fare");
+const fare = require("./fare");
 
 async function init() {
-  const fareAttributes = await manageFare();
+  const fareAttributes = await fare();
   console.log(fareAttributes);
 }
 
