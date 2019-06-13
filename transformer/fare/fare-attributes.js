@@ -6,7 +6,7 @@ const parseFare = require("./parse-fare");
 /**
  * Fare Attributes
  * @typedef {Object[]} FareAttributes
- * @property {string} fare_id
+ * @property {string} fareId
  * @property {string} price
  */
 /**

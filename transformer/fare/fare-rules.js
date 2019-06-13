@@ -22,7 +22,7 @@ async function makeFareRules() {
     header: true,
   });
   if (!!parsedData.errors.length) {
-    return parsedData.data;
+    return parsedData.data.filter(fareRule => !!fareRule.fare_id);
   } else {
     console.warn("Could not retrieve data", parsedData.errors);
     return [];
