@@ -12,14 +12,14 @@ const PapaParse = require("papaparse");
  * @returns {StationDetails}
  */
 async function getStationDetails() {
-  const stopData = await fs.readFile("../data/stops.csv", {
+  const stopData = await fs.readFile("data/stops.csv", {
     encoding: "utf8",
   });
   const parsedData = PapaParse.parse(stopData, {
     header: true,
   });
   if (!!parsedData.errors.length) {
-    return parsedData.data;
+    return parsedData.data.filter(stop => !!stop.stop_id);
   } else {
     console.warn("Could not retrieve data", parsedData.errors);
     return [];
