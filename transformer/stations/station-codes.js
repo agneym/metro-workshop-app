@@ -12,7 +12,7 @@ const PapaParse = require("papaparse");
  * @returns {StationDetails}
  */
 async function getStationDetails() {
-  const stopData = await fs.readFile("data/stops.csv", {
+  const stopData = await fs.readFile("../data/stops.csv", {
     encoding: "utf8",
   });
   const parsedData = PapaParse.parse(stopData, {

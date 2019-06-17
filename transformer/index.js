@@ -1,9 +1,10 @@
 const fare = require("./fare");
-const station = require("./stations");
+const stations = require("./stations");
 
 async function init() {
   const fareDetails = await fare();
-  const stations = await stations();
+  const stationDetails = await stations();
+  console.log(stationDetails);
 }
 
 init();

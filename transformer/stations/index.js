@@ -1,8 +1,8 @@
-import getStationCodes from "./station-codes";
+const getStationCodes = require("./station-codes");
 
-async function init() {
+async function stations() {
   const stationCodes = await getStationCodes();
   return stationCodes;
 }
 
-export default init;
+module.exports = stations;
