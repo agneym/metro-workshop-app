@@ -5,13 +5,17 @@ import "bulma/css/bulma.css";
 import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./components/Home";
+import Stations from "./components/Stations";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Route path="/" component={Home} />
+        <div style={{ marginTop: 64 }}>
+          <Route exact path="/" component={Home} />
+          <Route path="/stations" component={Stations} />
+        </div>
       </Router>
     </div>
   );
