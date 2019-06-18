@@ -1,0 +1,12 @@
+.navbar.is-light .navbar-item.active {
+  color: #3273dc;
+}
+
+.navbar.is-light .navbar-start > a.navbar-item:focus {
+  background-color: inherit;
+  color: #3273dc;
+}
+
+.navigation {
+  text-align: center;
+}
