@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <div style={{ marginTop: 64 }}>
+        <div style={{ marginTop: 52 }}>
           <Route exact path="/" component={Home} />
           <Route path="/stations" component={Stations} />
         </div>
