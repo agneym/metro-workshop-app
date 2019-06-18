@@ -1,16 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 function Home() {
   return (
     <main>
-      <section className="hero is-medium is-primary is-bold">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title">Kochi Metro</h1>
-            <h2 className="subtitle">Most Advanced Metro System in India</h2>
-          </div>
-        </div>
-      </section>
+      <Header subtitle="Most Advanced Metro System in India" />
       <section className="section level services">
         <div className="container">
           <h2 className="subtitle is-4">Services</h2>

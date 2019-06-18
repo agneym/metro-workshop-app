@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 function Stations() {
   return (
     <main>
-      <p>Stations</p>
+      <Header subtitle="Stations" />
     </main>
   );
 }
