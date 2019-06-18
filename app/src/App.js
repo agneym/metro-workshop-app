@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./components/Home";
 import Stations from "./components/Stations";
+import Fare from "./components/Fare";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div style={{ marginTop: 52 }}>
           <Route exact path="/" component={Home} />
           <Route path="/stations" component={Stations} />
+          <Route path="/fare" component={Fare} />
         </div>
       </Router>
     </div>
