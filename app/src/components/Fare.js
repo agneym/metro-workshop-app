@@ -14,16 +14,20 @@ function Fare() {
     const result = fareData.find(
       station => station.originId === starting && station.destId === destination
     );
-    const resultingFare = result.fare;
-    setFare(resultingFare);
+    if (result) {
+      const resultingFare = result.fare;
+      setFare(resultingFare);
+    }
   };
   return (
     <main>
       <Header subtitle="Fare Calculator" />
       <section className="section">
         <form className="container level" onSubmit={calculateFare}>
-          <div className="select is-rounded">
-            <label htmlFor="">Starting</label>
+          <div className="select field is-rounded">
+            <label className="label" htmlFor="">
+              Starting
+            </label>
             <select
               value={starting}
               onChange={event => setStarting(event.target.value)}
@@ -33,8 +37,10 @@ function Fare() {
               ))}
             </select>
           </div>
-          <div className="select is-rounded">
-            <label htmlFor="">Destination</label>
+          <div className="select field is-rounded">
+            <label className="label" htmlFor="">
+              Destination
+            </label>
             <select
               value={destination}
               onChange={event => setDestination(event.target.value)}
