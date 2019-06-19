@@ -4,7 +4,7 @@ import Header from "./Header";
 function Stations() {
   return (
     <main>
-      <Header subtitle="Stations" />
+      <Header subtitle="Station Information" />
     </main>
   );
 }
