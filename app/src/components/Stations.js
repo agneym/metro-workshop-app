@@ -2,6 +2,7 @@ import React from "react";
 
 import stationData from "../data/stations";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Stations() {
   return (
@@ -28,6 +29,7 @@ function Stations() {
           ))}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
