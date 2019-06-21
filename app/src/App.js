@@ -11,7 +11,7 @@ import Fare from "./components/Fare";
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navbar />
         <div style={{ marginTop: 52 }}>
           <Route exact path="/" component={Home} />
