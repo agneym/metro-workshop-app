@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "916cf5b36367a50b778e7b98ce0a5217",
+    "revision": "2f2291a63dfe1d4fbc96c6a54bfce930",
     "url": "/metro-workshop-app/index.html"
   },
   {
