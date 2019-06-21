@@ -2,6 +2,7 @@
   "name": "metro-app-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://boywithsilverwings.github.io/metro-workshop-app",
   "dependencies": {
     "bulma": "^0.7.5",
     "react": "^16.8.6",
