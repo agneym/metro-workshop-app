@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4fe3570.chunk.css",
-    "main.js": "/static/js/main.6d26ae3e.chunk.js",
-    "main.js.map": "/static/js/main.6d26ae3e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.62908225.chunk.css": "/static/css/2.62908225.chunk.css",
-    "static/js/2.620ef451.chunk.js": "/static/js/2.620ef451.chunk.js",
-    "static/js/2.620ef451.chunk.js.map": "/static/js/2.620ef451.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cd2642bcca78fb9402eaa5fe81d25146.js": "/precache-manifest.cd2642bcca78fb9402eaa5fe81d25146.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.62908225.chunk.css.map": "/static/css/2.62908225.chunk.css.map",
-    "static/css/main.c4fe3570.chunk.css.map": "/static/css/main.c4fe3570.chunk.css.map"
+    "main.css": "/metro-workshop-app/static/css/main.c4fe3570.chunk.css",
+    "main.js": "/metro-workshop-app/static/js/main.1c438f28.chunk.js",
+    "main.js.map": "/metro-workshop-app/static/js/main.1c438f28.chunk.js.map",
+    "runtime~main.js": "/metro-workshop-app/static/js/runtime~main.e25730b5.js",
+    "runtime~main.js.map": "/metro-workshop-app/static/js/runtime~main.e25730b5.js.map",
+    "static/css/2.62908225.chunk.css": "/metro-workshop-app/static/css/2.62908225.chunk.css",
+    "static/js/2.620ef451.chunk.js": "/metro-workshop-app/static/js/2.620ef451.chunk.js",
+    "static/js/2.620ef451.chunk.js.map": "/metro-workshop-app/static/js/2.620ef451.chunk.js.map",
+    "index.html": "/metro-workshop-app/index.html",
+    "precache-manifest.4628a0cc4fd86f182cf7df5c544f25bd.js": "/metro-workshop-app/precache-manifest.4628a0cc4fd86f182cf7df5c544f25bd.js",
+    "service-worker.js": "/metro-workshop-app/service-worker.js",
+    "static/css/2.62908225.chunk.css.map": "/metro-workshop-app/static/css/2.62908225.chunk.css.map",
+    "static/css/main.c4fe3570.chunk.css.map": "/metro-workshop-app/static/css/main.c4fe3570.chunk.css.map"
   }
 }
