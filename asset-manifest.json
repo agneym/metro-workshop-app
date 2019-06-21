@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/metro-workshop-app/static/css/main.c4fe3570.chunk.css",
-    "main.js": "/metro-workshop-app/static/js/main.1c438f28.chunk.js",
-    "main.js.map": "/metro-workshop-app/static/js/main.1c438f28.chunk.js.map",
+    "main.js": "/metro-workshop-app/static/js/main.d5dfed0f.chunk.js",
+    "main.js.map": "/metro-workshop-app/static/js/main.d5dfed0f.chunk.js.map",
     "runtime~main.js": "/metro-workshop-app/static/js/runtime~main.e25730b5.js",
     "runtime~main.js.map": "/metro-workshop-app/static/js/runtime~main.e25730b5.js.map",
     "static/css/2.62908225.chunk.css": "/metro-workshop-app/static/css/2.62908225.chunk.css",
-    "static/js/2.620ef451.chunk.js": "/metro-workshop-app/static/js/2.620ef451.chunk.js",
-    "static/js/2.620ef451.chunk.js.map": "/metro-workshop-app/static/js/2.620ef451.chunk.js.map",
+    "static/js/2.9a3ff266.chunk.js": "/metro-workshop-app/static/js/2.9a3ff266.chunk.js",
+    "static/js/2.9a3ff266.chunk.js.map": "/metro-workshop-app/static/js/2.9a3ff266.chunk.js.map",
     "index.html": "/metro-workshop-app/index.html",
-    "precache-manifest.3efb92196b13bf3acfeda6051f370b32.js": "/metro-workshop-app/precache-manifest.3efb92196b13bf3acfeda6051f370b32.js",
+    "precache-manifest.c79b35eee89379da0695570aad7e2450.js": "/metro-workshop-app/precache-manifest.c79b35eee89379da0695570aad7e2450.js",
     "service-worker.js": "/metro-workshop-app/service-worker.js",
     "static/css/2.62908225.chunk.css.map": "/metro-workshop-app/static/css/2.62908225.chunk.css.map",
     "static/css/main.c4fe3570.chunk.css.map": "/metro-workshop-app/static/css/main.c4fe3570.chunk.css.map"
