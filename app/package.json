@@ -14,7 +14,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "remove-build": "rimraf build",
+    "deploy-demo": "gh-pages -d build",
+    "update-demo": "npm run remove-build && npm run build && npm run deploy-demo"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,8 +40,10 @@
     }
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "husky": "^2.4.1",
     "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.0"
+    "pretty-quick": "^1.11.0",
+    "rimraf": "^2.6.3"
   }
 }
