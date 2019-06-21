@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c02766eb8217fc7c5988c5bec92dbcb0",
+    "revision": "42a96ab4fead1572486da01f7609a17d",
     "url": "/metro-workshop-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metro-workshop-app/static/css/2.62908225.chunk.css"
   },
   {
-    "revision": "1b967d8e7f9cecdd4908",
+    "revision": "d276a273204680d68765",
     "url": "/metro-workshop-app/static/css/main.c4fe3570.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metro-workshop-app/static/js/2.9a3ff266.chunk.js"
   },
   {
-    "revision": "1b967d8e7f9cecdd4908",
-    "url": "/metro-workshop-app/static/js/main.d5dfed0f.chunk.js"
+    "revision": "d276a273204680d68765",
+    "url": "/metro-workshop-app/static/js/main.89c254f5.chunk.js"
   },
   {
     "revision": "389cc9705d7f59c8b5d7",
